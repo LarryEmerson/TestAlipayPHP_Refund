@@ -143,7 +143,7 @@ class datamanager {
 
 $db = new datamanager;
 $db->charset = "utf8";
-$db->connect('115.29.238.177', 'root', 'CB1qaz2wsx', 'alipay', 0);
+$db->connect('xxx', 'root', 'xxx', 'alipay', 0);
 
 function echoresponse($result,$error = 0,$errormsg = '') {
 		global $cbserrors;
